@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    color: black;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+    /* color:black */
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+main{
+    height : 83vh;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar{
+    width: 260px;
+    height: 4vh;
+    border-radius: 10px;
+    border : 2px solid white;
+    margin: 0 5px 0px 50px;
+}
+
+.search_button{
+    padding: 5px 15px;
+    background-color: var(--main-bg-color);
+    color: White;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cards_box{
+    height : 30vh;
+    display: flex;  
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    height: 25vh;
+    width : 20vw;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.product_img{
+    object-fit: contain;
+}
+.product_name{
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+.offers{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
